@@ -5,7 +5,7 @@ public class TypeA extends Thing {
         lab = 'r';
     }
     public void maybeTurn() {
-        int a = rand.nextInt(3);
+        int a = DotChaser.rand.nextInt(3);
         if (a == 1) rightTurn();
         if (a == 2) leftTurn();
     }
