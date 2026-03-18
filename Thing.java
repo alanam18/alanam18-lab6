@@ -1,4 +1,6 @@
+import java.util.*;
 public abstract class Thing {
+    public static Random rand = new Random(System.currentTimeMillis());
     public int row, col, direct, timeSinceLast;
     public char lab = 'r';
     public static final int[] dc = {0, 1, 0, -1};
